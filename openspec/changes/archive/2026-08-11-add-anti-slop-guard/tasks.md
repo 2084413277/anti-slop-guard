@@ -13,4 +13,4 @@
 
 - [x] 3.1 Validate OpenSpec artifacts and the skill package
 - [x] 3.2 Run focused activation and behavior checks
-- [ ] 3.3 Initialize Git, commit the verified files, create a public GitHub repository, and push the default branch
+- [x] 3.3 Initialize Git, commit the verified files, create a public GitHub repository, and push the default branch
