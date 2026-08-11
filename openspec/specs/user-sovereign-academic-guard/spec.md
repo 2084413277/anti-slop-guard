@@ -116,4 +116,3 @@ Academic text produced under this skill SHALL prefer direct positive proposition
 #### Scenario: Necessary negative statement
 - **WHEN** the evidence requires a negative statement
 - **THEN** the assistant writes a complete independent sentence with an explicit subject, predicate, and object
-
