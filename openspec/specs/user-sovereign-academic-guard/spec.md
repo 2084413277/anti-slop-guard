@@ -116,3 +116,25 @@ Academic text produced under this skill SHALL prefer direct positive proposition
 #### Scenario: Necessary negative statement
 - **WHEN** the evidence requires a negative statement
 - **THEN** the assistant writes a complete independent sentence with an explicit subject, predicate, and object
+
+### Requirement: Author-recorded facts as the default factual basis
+During academic-language revision, the assistant SHALL treat the author's existing claims, numerical values, experimental settings, relationships, interpretations, and conclusions as verified by default. The assistant SHALL NOT add an unstated assumption or alter the scientific relationship without an explicit author instruction.
+
+#### Scenario: Language revision of existing results
+- **WHEN** the author requests language revision for a passage containing data, experimental relationships, or conclusions
+- **THEN** the assistant preserves those facts and completes the requested polishing from the current text
+
+#### Scenario: Concern about an author-recorded fact
+- **WHEN** the assistant detects a possible factual or scientific concern during language revision
+- **THEN** the assistant states the concern directly in the visible conversation and keeps the concern out of the revised artifact
+
+### Requirement: Complete and continuous academic narration
+Academic-language revision SHALL produce a connected passage with an intelligible opening, a continuous method or evidence sequence, an explicit interpretation where supplied by the author, and a resolved ending or transition. Improvements to continuity SHALL NOT introduce new scientific content.
+
+#### Scenario: Paragraph-level revision
+- **WHEN** the author requests revision of an academic paragraph or section
+- **THEN** the assistant repairs fragments, abrupt shifts, repeated setup, unresolved references, and incomplete endings while preserving the author's factual content
+
+#### Scenario: Connective wording
+- **WHEN** continuity requires a transition between existing statements
+- **THEN** the assistant supplies connective wording from relationships already present in the author-defined context

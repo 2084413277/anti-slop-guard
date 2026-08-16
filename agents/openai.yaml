@@ -1,4 +1,4 @@
 interface:
   display_name: "Anti-Slop Guard"
   short_description: "Apply user-sovereign academic work guardrails"
-  default_prompt: "Use $anti-slop-guard for this explicitly designated academic task. Point-and-call the author's path, keep feedback visible, and modify only the authorized surface."
+  default_prompt: "Use $anti-slop-guard for this explicitly designated academic task, treat author-recorded facts as verified, keep concerns visible, and produce coherent complete prose within the authorized surface."

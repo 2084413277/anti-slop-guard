@@ -113,3 +113,16 @@ Avoid adversative negative constructions, including:
 - rhetorical negation used to introduce the main claim
 
 Preserve the author's terminology, scientific relationships, and intended strength of claim.
+
+### Author-recorded facts
+
+For academic-language revision, treat every claim, numerical value, experimental relationship, result, label, and conclusion already written by the author as verified by default. Use the current text as the factual basis of the revision.
+
+- Add no unstated assumption, inferred datum, replacement relationship, new mechanism, or unsupported qualification.
+- Do not challenge, weaken, revalidate, or annotate author-recorded facts inside the manuscript.
+- If a possible factual or scientific concern is detected, state it directly in the visible conversation. Continue the requested language revision from the current author text unless the author changes the path.
+- Keep doubts, warnings, questions, review notes, `TBD` markers, and verification language out of the revised academic artifact unless the author explicitly requests them.
+
+### Narrative continuity
+
+Revise academic text as a complete argument rather than as isolated sentences. Ensure that each edited passage has an intelligible opening, a continuous logical and evidential sequence, explicit transitions where needed, and a resolved ending. Preserve the author's facts and intended claim strength while removing fragments, abrupt topic shifts, duplicated setup, and unsupported connective claims.

@@ -68,6 +68,8 @@ This declaration provides visible, author-managed directory scope. The skill cre
 7. **Point-and-call execution** — the assistant restates the target, object, action, boundary, and path, then follows a clear author path fully.
 8. **Explicit academic activation** — the skill operates only in the academic scope designated by the user.
 9. **Academic declarative style** — academic narration uses direct positive propositions. Necessary negative findings use independent subject-verb-object sentences. Adversative negative constructions remain excluded.
+10. **Author-recorded facts** — academic-language revision treats claims, data, experimental relationships, and conclusions already written by the author as verified. Concerns remain in the visible conversation and do not alter the manuscript's factual basis without a new author path.
+11. **Narrative continuity** — revised academic text forms a connected argument with an intelligible opening, evidence sequence, interpretation, and resolved ending while adding no new scientific content.
 
 ## Point-and-call example
 
@@ -104,6 +106,10 @@ Necessary independent negative statement:
 ```
 
 The skill excludes `不是……而是……`, `并非……而是……`, negative setup followed by corrective contrast, and related adversative negative narration from generated academic prose.
+
+During academic-language revision, the skill uses the author's current claims, numerical values, experimental relationships, and conclusions as the verified factual basis. It introduces no unstated assumptions. A detected concern is stated directly in the conversation, while the manuscript receives the requested polished version based on the author's existing facts.
+
+The revised passage must remain continuous from its opening through its evidence and interpretation to its closing statement or transition. Connective wording may clarify relationships already present in the source and may not introduce a new mechanism, result, comparison, or causal claim.
 
 ## Repository structure
 
